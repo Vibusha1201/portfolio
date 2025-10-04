@@ -13,12 +13,12 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg", // add this image to your assets
+    image: "/portfolio/assets/projects/accessories.jpg",
     tags: [
-      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
-      { id: 2, name: "Machine Learning", path: "/assets/logos/ml.svg" },
-      { id: 3, name: "Wireshark", path: "/assets/logos/wireshark.svg" },
-      { id: 4, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 1, name: "Python", path: "/portfolio/assets/logos/python.svg" },
+      { id: 2, name: "Machine Learning", path: "/portfolio/assets/logos/ml.svg" },
+      { id: 3, name: "Wireshark", path: "/portfolio/assets/logos/wireshark.svg" },
+      { id: 4, name: "Git", path: "/portfolio/assets/logos/git.svg" },
     ],
   },
   {
@@ -32,11 +32,11 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg", // add this image to your assets
+    image: "/portfolio/assets/projects/elearning.jpg",
     tags: [
-      { id: 1, name: "C", path: "/assets/logos/c.svg" },
-      { id: 2, name: "Arduino", path: "/assets/logos/arduino.svg" },
-      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 1, name: "C", path: "/portfolio/assets/logos/c.svg" },
+      { id: 2, name: "Arduino", path: "/portfolio/assets/logos/arduino.svg" },
+      { id: 3, name: "Git", path: "/portfolio/assets/logos/git.svg" },
     ],
   },
 ];
@@ -45,7 +45,7 @@ export const mySocials = [
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/vibusha12012006/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "/portfolio/assets/socials/linkedIn.svg",
   },
 ];
 
