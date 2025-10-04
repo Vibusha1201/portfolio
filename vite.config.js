@@ -6,4 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/portfolio/",
   plugins: [react(), tailwindcss()],
+  build: {
+    assetsInlineLimit: 0, // Don't inline assets
+  },
+  // Ensure proper asset handling
+  publicDir: 'public',
+  // Add this to help with asset resolution
+  assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.hdr']
 });
